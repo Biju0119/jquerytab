@@ -1,0 +1,14 @@
+
+body {font-family: 'Open Sans', sans-serif; font-size: 25px;}
+
+
+ul { list-style: none; float: left; padding: 0px; margin: 0px; }
+.title { float: left; width: 200px; }
+
+.title ul li { cursor: pointer; }
+
+.content { float: left ;  width: 800px; }
+.list { display: none;  transform-origin:center top 0; transform:translateY(-100%);}
+.current { display: block !important; color: #f00; transform:translateY(0px);
+}
+
